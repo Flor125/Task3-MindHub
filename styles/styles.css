@@ -26,7 +26,7 @@
 }
 
 .indice1{
-    position: relative; left: 490px;
+    position: relative; left: 390px;
     padding: 3px 3px; 
     background-color:greenyellow; 
     color: #ffffff; 
@@ -36,7 +36,7 @@
 }
 
 .indice2{
-    position: relative; left: 490px;
+    position: relative; left: 390px;
     padding: 3px 3px; 
     background-color:greenyellow; 
     color: #ffffff; 
@@ -46,7 +46,7 @@
 }
 
 .indice3{
-    position: relative; left: 490px;
+    position: relative; left: 390px;
     padding: 3px 3px; 
     background-color:greenyellow; 
     color: #ffffff; 
@@ -56,7 +56,7 @@
 }
 
 .indices{
-    position: relative; left: 490px;
+    position: relative; left: 390px;
     padding: 3px 3px; 
     background-color: #2e518b; 
     color: #ffffff; 
@@ -77,4 +77,21 @@ div.seccion{
 .left{
     position: relative; left: 302px;
     top: 30px;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+table {   
+    font-size: 12px;    margin: 45px;     width: 480px; text-align: left;    border-collapse: collapse; }
+
+th {     font-size: 13px;     font-weight: normal;     padding: 8px;     
+    border-top: 4px solid #aabcfe;    border-bottom: 1px solid #fff; color: #039; }
+
+td {    padding: 8px;     background: #e8edff;     border-bottom: 1px solid #fff;
+    color: #669;    border-top: 1px solid transparent; }
+
+tr:hover td { background: #d0dafd; color: #339; }
+
+.div.p{
+    font-weight: italic;
 }
