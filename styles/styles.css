@@ -1,0 +1,80 @@
+.h1{
+    position:relative; 
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.image1{
+    width: 1300px;
+    height: 400px;
+    position: sticky;
+    vertical-align: text-bottom; 
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+}
+
+.texto-encima{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black; width: 100%;
+    color: white;
+}
+
+.indice1{
+    position: relative; left: 490px;
+    padding: 3px 3px; 
+    background-color:greenyellow; 
+    color: #ffffff; 
+    text-transform: uppercase;
+    border: 1px solid black;
+    box-shadow: 2px 2px rgba(0,0,0,0.5);
+}
+
+.indice2{
+    position: relative; left: 490px;
+    padding: 3px 3px; 
+    background-color:greenyellow; 
+    color: #ffffff; 
+    text-transform: uppercase;
+    border: 1px solid black;
+    box-shadow: 2px 2px rgba(0,0,0,0.5);
+}
+
+.indice3{
+    position: relative; left: 490px;
+    padding: 3px 3px; 
+    background-color:greenyellow; 
+    color: #ffffff; 
+    text-transform: uppercase;
+    border: 1px solid black;
+    box-shadow: 2px 2px rgba(0,0,0,0.5);
+}
+
+.indices{
+    position: relative; left: 490px;
+    padding: 3px 3px; 
+    background-color: #2e518b; 
+    color: #ffffff; 
+    text-transform: uppercase;
+    border: 1px solid black;
+    box-shadow: 2px 2px rgba(0,0,0,0.5);
+}
+
+div.seccion{
+    position: relative; left: 600px;
+    top: -140px;
+    width: 960px;
+    height: 380px;
+    padding: 5px;
+    text-align: justify;
+}
+
+.left{
+    position: relative; left: 302px;
+    top: 30px;
+}
