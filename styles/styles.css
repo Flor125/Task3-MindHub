@@ -1,12 +1,15 @@
+/*formato del título cabecera*/
 .h1{
     position:relative; 
     font-weight: bold;
     font-size: 40px;
+    text-align: center;
+    padding: 10px;
 }
 
 .image1{
-    width: 1300px;
-    height: 400px;
+    width: 1000px;
+    height: 300px;
     position: sticky;
     vertical-align: text-bottom; 
 }
@@ -26,27 +29,7 @@
 }
 
 .indice1{
-    position: relative; left: 390px;
-    padding: 3px 3px; 
-    background-color:greenyellow; 
-    color: #ffffff; 
-    text-transform: uppercase;
-    border: 1px solid black;
-    box-shadow: 2px 2px rgba(0,0,0,0.5);
-}
-
-.indice2{
-    position: relative; left: 390px;
-    padding: 3px 3px; 
-    background-color:greenyellow; 
-    color: #ffffff; 
-    text-transform: uppercase;
-    border: 1px solid black;
-    box-shadow: 2px 2px rgba(0,0,0,0.5);
-}
-
-.indice3{
-    position: relative; left: 390px;
+    position: relative; left: 250px;
     padding: 3px 3px; 
     background-color:greenyellow; 
     color: #ffffff; 
@@ -56,7 +39,7 @@
 }
 
 .indices{
-    position: relative; left: 390px;
+    position: relative; left: 250px;
     padding: 3px 3px; 
     background-color: #2e518b; 
     color: #ffffff; 
@@ -65,33 +48,35 @@
     box-shadow: 2px 2px rgba(0,0,0,0.5);
 }
 
+.indices:hover{
+    background-color:greenyellow;
+}
+
 div.seccion{
-    position: relative; left: 600px;
+    position: relative; left: 450px;
     top: -140px;
-    width: 960px;
+    width: 760px;
     height: 380px;
     padding: 5px;
     text-align: justify;
 }
-
+/* logo del equipo*/
 .left{
-    position: relative; left: 302px;
+    position: relative; left: 250px;
     top: 30px;
 }
 
-body {font-family: Arial, Helvetica, sans-serif;}
+/* schedule.html*/
+body{font-family: Arial, Helvetica, sans-serif; width: 100%; margin: 0 auto;}
 
-table {   
-    font-size: 12px;    margin: 45px;     width: 480px; text-align: left;    border-collapse: collapse; }
-
-th {     font-size: 13px;     font-weight: normal;     padding: 8px;     
-    border-top: 4px solid #aabcfe;    border-bottom: 1px solid #fff; color: #039; }
-
-td {    padding: 8px;     background: #e8edff;     border-bottom: 1px solid #fff;
-    color: #669;    border-top: 1px solid transparent; }
-
-tr:hover td { background: #d0dafd; color: #339; }
-
-.div.p{
-    font-weight: italic;
+table{   
+    font-size: 20px; margin: 45px; width: 580px; text-align: left; border-collapse: collapse; 
 }
+th{
+    font-size: 23px; font-weight: bolder; padding: 8px; text-align: left;    
+}
+td {padding: 8px;}
+
+/*espaciado del cuerpo del texto*/
+.parrafo-schedule{line-height: 30px;}
+
