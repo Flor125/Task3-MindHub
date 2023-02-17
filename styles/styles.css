@@ -17,6 +17,7 @@
 .contenedor{
     position: relative;
     display: inline-block;
+    box-sizing: border-box;
 }
 
 .texto-encima{
@@ -53,7 +54,7 @@
 }
 
 div.seccion{
-    position: relative; left: 450px;
+    position: relative; left: 400px;
     top: -140px;
     width: 760px;
     height: 380px;
@@ -62,7 +63,7 @@ div.seccion{
 }
 /* logo del equipo*/
 .left{
-    position: relative; left: 250px;
+    position: relative; left: 175px;
     top: 30px;
 }
 
